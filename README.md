@@ -8,7 +8,7 @@ A biblioteca será testada através da função cpfValidator().
 
 ```shell
 
-$ npm install 
+$ npm install lib-cpfvalidator-elis
 
 ```
 
@@ -16,8 +16,8 @@ $ npm install
 
 ```node
 
-> const cpfValidator = require("lib-cpf");
-> console.log()
+> const cpf = require("lib-cpfvalidator-elis");
+> console.log(cpf.cpfValidator)
 
 ```
 
